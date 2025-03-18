@@ -1,0 +1,14 @@
+# This Compose file defines two services: web and redis.
+
+# En yaml (équivalent du json) -> indentations sont très importantes
+
+services:
+  # docker build . -t myimage
+  # docker run -dp 8000:5000 myimage
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+  redis:
+    image: "redis:alpine"
+    # docker run -d redis:alpine --name redis
