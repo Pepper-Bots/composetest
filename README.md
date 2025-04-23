@@ -36,13 +36,13 @@ cd composetest
 docker compose up
 ```
 
-⚙️ Technologies utilisées
+## ⚙️ Technologies utilisées
 
 - Python 3
 - Docker
 - Docker Compose
 
-📝 Remarques
+## 📝 Remarques
 
 Ce projet est un exercice simplifié réalisé dans un cadre d’apprentissage.
 Il ne représente pas une application destinée à la production.
